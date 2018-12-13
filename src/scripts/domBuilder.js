@@ -24,3 +24,7 @@ const domBuilder = {
     displayContainer.innerHTML = inputForm;
     }
 }
+//not using innerhtml: let newButton = document.createElement("button");
+//to create class to button: newButton.classList.add("aClass");
+//append it: newbutton.addEventListener("click", eventListener.handleFromSubmission); - this is the eventlistener in the eventlistner.js file
+//displayContainer.appendChild(newButton);
