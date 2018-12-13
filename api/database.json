@@ -1,10 +1,15 @@
 {
   "legos": [
     {
-      "creatorName": "fsdadfaf",
-      "legoName": "asdfasdfa",
-      "legoColor": "asdfasdf",
-      "legoShape": "sdfasdfasdf",
+      "creatorName": "dasda",
+      "legoName": "asdasd",
+      "legoShape": "",
+      "id": 1
+    }
+  ],
+  "colors": [
+    {
+      "legoColor": "1",
       "id": 1
     }
   ]

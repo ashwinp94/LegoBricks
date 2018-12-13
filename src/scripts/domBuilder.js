@@ -15,11 +15,18 @@ const domBuilder = {
         </fieldset>
         <fieldset>
         <label for="lego__color">Color:</label>
-        <input id="lego__color" name="lego__color" type="text" autofocus />
+        <select id="lego__color">
+            <option value="1">Red</option>
+            <option value="2">Green</option>
+            <option value="3">Yellow</option>
+            <option value="4">Blue</option>
+            <option value="5">Orange</option>
+            <option value="6">Black</option>
+        </select>
         </fieldset>
         <button class="btn lego__save">Save Lego Creation</button>
         </article>`
-    
+
     let displayContainer = document.querySelector("#display-container");
     displayContainer.innerHTML = inputForm;
     }

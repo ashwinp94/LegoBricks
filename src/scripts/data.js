@@ -9,24 +9,17 @@ const data = {
         })
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const dataColors = {
+    postColors(legoColorSave) {
+        fetch("http://localhost:8088/colors",{
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(legoColorSave)
+        })
+    }
+}
 
 
 //this is to delete
