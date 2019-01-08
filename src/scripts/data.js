@@ -7,19 +7,14 @@ const data = {
         },
         body: JSON.stringify(legoToSave)
         })
+    },
+
+    getColors () {
+        return fetch("http://localhost:8088/colors")
+            .then(response => response.json())
     }
 }
-const dataColors = {
-    postColors(legoColorSave) {
-        fetch("http://localhost:8088/colors",{
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(legoColorSave)
-        })
-    }
-}
+
 
 
 //this is to delete

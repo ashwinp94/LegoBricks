@@ -1,16 +1,21 @@
 {
   "legos": [
     {
-      "creatorName": "dasda",
-      "legoName": "asdasd",
-      "legoShape": "",
-      "id": 1
+      "creatorName": "ash ",
+      "legoName": "ash",
+      "legoShape": "ash",
+      "legoColor": "red",
+      "id": 2
     }
   ],
   "colors": [
     {
-      "legoColor": "1",
-      "id": 1
+      "id": 1,
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "color": "blue"
     }
   ]
 }

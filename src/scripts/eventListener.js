@@ -10,13 +10,9 @@ const eventListeners = {
             creatorName: creator,
             legoName: name,
             legoShape: shape,
-        }
-        const legoObjectColor = {
             legoColor: color,
         }
         data.postLego(legoObject);
-        dataColors.postColors(legoObjectColor);
-        console.log(legoObjectColor);
     }
 };
 
